@@ -9,6 +9,7 @@ El objetivo de este repositorio es desarrollar habilidades prácticas en:
 * Git y GitHub
 * SQL
 * DBeaver
+* Visual Studio Code
 * KNIME
 * Buenas prácticas de documentación
 * Trabajo colaborativo
@@ -90,7 +91,26 @@ Instalar según el sistema operativo.
 
 ---
 
-## 3. KNIME
+## 3. Visual Studio Code (Recomendado)
+
+Descargar:
+
+https://code.visualstudio.com/
+
+Instalar según el sistema operativo.
+
+Visual Studio Code será utilizado para:
+
+* Edición de archivos SQL
+* Edición de archivos Markdown (.md)
+* Revisión de scripts
+* Gestión de repositorios Git
+* Documentación de ejercicios
+
+
+---
+
+## 4. KNIME
 
 Descargar:
 
@@ -417,6 +437,7 @@ Desarrollo de una solución completa utilizando:
 * Git
 * GitHub
 * DBeaver
+* Visual Studio Code
 * KNIME
 
 Simulando un entorno real de trabajo.
