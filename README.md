@@ -1,4 +1,4 @@
-# Programa de Formación en Datos
+# Ejercicios datos
 
 Bienvenidos al programa de formación en análisis y gestión de datos.
 
