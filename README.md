@@ -1,6 +1,8 @@
 # Ejercicios de Datos
 
-Bienvenidos a esta practica de datos.
+Bienvenidos a esta práctica de datos.
+
+Este repositorio será el espacio central para el desarrollo de ejercicios, consultas, material de estudio y proyectos prácticos relacionados con análisis de datos.
 
 El objetivo de este repositorio es desarrollar habilidades prácticas en:
 
@@ -122,6 +124,22 @@ git config --list
 
 ---
 
+# Acceso al repositorio
+
+Antes de comenzar, debes enviarme el correo electrónico asociado a tu cuenta de GitHub.
+
+Puedes verificar el correo configurado en Git ejecutando:
+
+```bash
+git config --global user.email
+```
+
+Una vez me compartas ese correo, te otorgaré permisos de colaboración sobre este repositorio para que puedas clonar, actualizar y cargar tus ejercicios en la rama asignada.
+
+Si aún no tienes una cuenta de GitHub, deberás crear una antes de continuar.
+
+---
+
 # Clonar el repositorio
 
 Ubicarse en la carpeta deseada.
@@ -188,7 +206,7 @@ Dentro de la rama `main` encontrarás una carpeta con el proyecto de DBeaver pre
 
 Pasos:
 
-1. Descargar o actualizar la rama `main`.
+1. Clonar el repositorio.
 2. Abrir DBeaver.
 3. Seleccionar:
 
@@ -196,10 +214,12 @@ Pasos:
 File > Import
 ```
 
-4. Elegir el proyecto suministrado en el repositorio.
+4. Importar el proyecto suministrado en la rama `main`.
 5. Finalizar la importación.
 
 El proyecto ya contiene la configuración necesaria para conectarse al entorno de prácticas.
+
+Cuando se publiquen actualizaciones del proyecto o nuevas conexiones, bastará con actualizar la rama `main`.
 
 ---
 
@@ -217,19 +237,49 @@ Comunícate conmigo para revisar la configuración correspondiente.
 
 ---
 
+# Actualizar material desde la rama main
+
+Antes de iniciar un nuevo ejercicio es recomendable actualizar el material disponible en la rama principal.
+
+Cambiar a la rama main:
+
+```bash
+git checkout main
+```
+
+Actualizar:
+
+```bash
+git pull origin main
+```
+
+Regresar a tu rama:
+
+```bash
+git checkout Branch_Leidy
+```
+
+> Reemplaza el nombre de la rama según corresponda.
+
+---
+
 # Entrega de ejercicios
 
 Cada actividad deberá entregarse únicamente en la rama asignada.
 
-Ejemplo:
+Agregar cambios:
 
 ```bash
 git add .
 ```
 
+Crear commit:
+
 ```bash
 git commit -m "Entrega ejercicio joins"
 ```
+
+Enviar cambios:
 
 ```bash
 git push origin Branch_Leidy
@@ -257,6 +307,20 @@ Ejercicio_05_Joins/
 └── notas.md
 ```
 
+### Descripción de archivos
+
+**solucion.sql**
+
+Contiene la solución SQL desarrollada para el ejercicio.
+
+**evidencia.png**
+
+Captura de pantalla mostrando el resultado obtenido.
+
+**notas.md**
+
+Comentarios, observaciones o explicación de la solución implementada.
+
 ---
 
 # Observaciones
@@ -266,6 +330,9 @@ Ejercicio_05_Joins/
 3. Mantener nombres descriptivos para carpetas y archivos.
 4. Realizar commits con mensajes claros.
 5. Antes de iniciar un nuevo ejercicio, actualizar los cambios desde la rama `main`.
+6. Mantener actualizado el acceso a GitHub.
+7. Verificar que el correo configurado en Git corresponda a la cuenta de GitHub utilizada.
+8. Revisar periódicamente la rama `main`, ya que allí se publicarán nuevos ejercicios, material de apoyo y recursos adicionales.
 
 ---
 
@@ -354,4 +421,4 @@ Desarrollo de una solución completa utilizando:
 
 Simulando un entorno real de trabajo.
 
-Tema: (To be defined)
+**Tema:** To be defined.
