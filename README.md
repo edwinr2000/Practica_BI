@@ -1,6 +1,6 @@
 # Ejercicios de Datos
 
-Bienvenidos al programa de formación en análisis y gestión de datos.
+Bienvenidos a esta practica de datos.
 
 El objetivo de este repositorio es desarrollar habilidades prácticas en:
 
